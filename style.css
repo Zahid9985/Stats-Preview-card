@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 375px;
+    height: 100%;
+    margin: auto;
+    background-color: hsl(233, 47%, 7%);
+    padding-top: 20px;
+
+}
+
+.cardstraucture {
+    height: 630px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+
+}
+
+.upperpic {
+    width: 300px;
+    height: 195px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+
+}
+
+.image {
+    width: 300px;
+    height: 195px;
+    border-radius: 10px 10px 0 0;
+    margin-top: -199px;
+    background-color: hsla(277, 96%, 20%, 0.641);
+    position: absolute;
+    z-index: -0;
+
+
+}
+
+.headingOne {
+    margin: auto;
+    padding: 40px;
+    margin-top: -20px;
+
+}
+
+.firstHeading {
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+
+
+
+}
+
+.headingTwo {
+    margin: auto;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.para {
+    font-family: "Inter", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    word-spacing: .3em;
+    line-height: 1.4;
+    font-size: smaller;
+}
+
+.company {
+    margin: auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    /* margin-top: px; */
+
+}
+
+.companyValu {
+    color: hsl(0, 0%, 100%);
+}
+
+.companyPara {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: x-small;
+    text-transform: uppercase;
+}
+
+.template {
+    margin: auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.templateValu {
+    color: hsl(0, 0%, 100%);
+}
+
+.templatePara {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: x-small;
+    text-transform: uppercase;
+}
+
+.que {
+    margin: auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.queValu {
+    color: hsl(0, 0%, 100%);
+
+}
+
+.quePara {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: x-small;
+    text-transform: uppercase;
+}
